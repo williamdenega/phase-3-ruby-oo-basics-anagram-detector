@@ -22,11 +22,10 @@ end
 
 class Anagram_v2
 
-    attr_reader :arry, :word
+    attr_reader :word
 
     def initialize word
         @word = word
-        @arry = word.chars.sort
     end
 
     def match list
